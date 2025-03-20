@@ -1,2 +1,3 @@
 libgl1-mesa-glx
-opencv-python
+v4l-utils
+ffmpeg
