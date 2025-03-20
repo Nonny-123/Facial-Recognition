@@ -4,3 +4,4 @@ deepface == 0.0.93
 opencv-python-headless == 4.8.0.74
 tensorflow==2.17.1
 tf-keras
+opencv-python
