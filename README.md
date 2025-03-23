@@ -1,38 +1,97 @@
-# Passenger Registration and Facial Recognition System
+🎓 Student Identification and Exam Eligibility System
 
-This project is an AI-powered application that combines a **Passenger Registration System** and **Facial Recognition System** for security purposes, such as airport or train station security. The app registers passenger details and then identifies passengers in real-time through facial recognition, helping to ensure that only authorized individuals pass through secure areas. It also includes a **Threat Detection System** to identify flagged individuals or potential threats.
+This project is an AI-powered application that combines a Student Registration System and Facial Recognition System to ensure only eligible students can access exam rooms. It registers student details and identifies students in real-time through facial recognition, enhancing security and streamlining exam processes.
 
+📜 Table of Contents
 
-## Features
+Installation
 
-**Passenger Registration:**
-- Register passengers by entering details such as name, contact information, travel details, and an image.
-- Saves the passenger’s photo in a known_faces directory and stores metadata (name, contact, travel info, email) in a JSON file for future identification.
-  
-**Facial Recognition:**
-- Real-time facial recognition using a live video feed to identify registered passengers.
-- Displays the name, contact info, and travel details of identified passengers.
-- Threat detection by comparing captured faces to a separate Threat Database (known_threats), raising an alert if a flagged individual is detected.
-  
-**Security Features:**
-- Passenger identification and threat detection based on DeepFace facial recognition with the Facenet model.
-- Alerts for unknown passengers or flagged individuals, ensuring a secure environment.
-  
-**User Interface:**
-- Simple form-based registration process with image upload.
-- Start and stop real-time face recognition with a single click in the Facial Recognition tab.
+Usage
 
-## Technologies Used
-- Python 3.11.1
-- Streamlit: A framework for creating interactive web apps in Python.
-- DeepFace: A deep learning-based facial recognition library.
-- OpenCV: For accessing and processing real-time video streams.
-- Pillow: For image processing (handling uploaded images).
-- JSON: For storing passenger metadata.
+System Features
 
-## Credits
-Special thanks to the open-source community for the amazing tools like Streamlit, DeepFace, and OpenCV that made this project possible.
-## License
+Technologies Used
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Future Improvements
+
+Contributing
+
+License
+
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/Nonny-123/Student-Identification-System.git
+cd Student-Identification-System
+
+Create a virtual environment (optional but recommended):
+
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+🚀 Usage
+
+Run the Streamlit app:
+
+streamlit run student_identification_app.py
+
+Access the app:
+The app will run locally at:
+
+http://localhost:8501
+
+🔍 System Features
+
+Student Registration:
+
+Register students by entering their name, contact information, student ID, and uploading an image.
+
+Save student details and photos for future identification.
+
+Facial Recognition:
+
+Identify students in real-time through a live video feed.
+
+Check student eligibility for exams and raise alerts for unregistered students.
+
+Security Features:
+
+Accurate identification powered by DeepFace with the Facenet model.
+
+Alerts for unrecognized students to prevent unauthorized access.
+
+🏠 Technologies Used
+
+Python 🐍
+
+Streamlit ⚡
+
+DeepFace 🤖
+
+OpenCV 🖼️
+
+JSON 📂
+
+📌 Future Improvements
+
+Implement a secure student database.
+
+Add multi-factor authentication.
+
+Improve the UI with more detailed student information.
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo, open issues, and submit a pull request.
+
+🐝 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Developed by Okonji Chukwunonyelim Gabriel.
 
