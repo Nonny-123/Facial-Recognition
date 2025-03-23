@@ -22,8 +22,9 @@ License
 
 Clone the repository:
 
-git clone https://github.com/Nonny-123/Student-Identification-System.git
-cd Student-Identification-System
+git clone git clone https://github.com/Nonny-123/Facial-Recognition.git
+
+cd Facial-Recognition
 
 Create a virtual environment (optional but recommended):
 
